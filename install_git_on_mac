@@ -1,8 +1,12 @@
+
+# set your editor
+$ git config --global core.editor vim
+
 # Set your username
-$ git config --global user.name "Your Name Here"
+$ git config --global user.name "Yao Wang"
 
 # Set your email address
-$ git config --global user.email "your_name@domain.com"
+$ git config --global user.email "sniperswy@gmail.com"
 
 # Ensure that you are in your ~/.ssh folder
  $ cd ~/.ssh
