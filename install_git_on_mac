@@ -20,6 +20,9 @@ $ cp id_rsa* key_backup
 # Deletes the id_rsa keypair in your ~/.ssh directory
 $ rm id_rsa*
 
+# create key 
+ssh-keygen -t rsa
+
 # The below command will copy your newly generated key to your computer's clipboard.
 $ pbcopy < ~/.ssh/id_rsa.pub
 
