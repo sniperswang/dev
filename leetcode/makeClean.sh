@@ -1,5 +1,5 @@
 for d in *; do 
-	if [ "$d" != "makeAll.sh" ]
+	if [ "$d" != "makeClean.sh" ]
 	then
 	 cd $d
 	 echo "make clean for $d ..."
