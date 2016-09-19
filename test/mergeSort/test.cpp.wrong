@@ -1,0 +1,64 @@
+#include <iostream>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+void merge(int* array, int p, int q, int r)
+{
+	int *local = new int[r-p+1];
+	int m = q - p + 1;
+	int n = r - q;
+	int posA = p;
+	int posB = q + 1;
+
+	int i = 0;
+	cout << p <<" " << r << " " << q << endl;
+	while (true)
+	{
+		cout << i << endl;
+		if ( i >= m && i >= n)
+		{
+			break;
+		}
+		if ( m > n && i >= n) 
+		{
+			local[i] = array[posA + i];	
+			i++;
+			continue;
+		}  
+		if ( n > m && i >= m)
+		{
+			local[i] = array[posB + i];
+			i++;
+			continue;
+		}
+		array[posA + i] > array[posB + i] ? local[i]	= array[posB + i]: local[i] = array[posA + i];
+		i++;
+	}
+	memcpy(array+p, local, (r-p+1)*sizeof(int));
+	delete[] local;
+}
+
+void mergeSort(int* array, int p, int q)
+{
+	if (p < q)
+	{
+		int r = ( q - p) / 2;
+		mergeSort(array, p, r);
+		mergeSort(array, r+1, q);
+		merge(array, p ,q, r); 
+	}
+}
+  
+int main() 
+{
+	int fool [] = {9,8,7,6,5,4,3,2,1};
+	mergeSort(fool, 0, 8);
+	for (int i =0 ;i < 9; i++)
+	{
+		cout << fool[i] << ",";
+	}
+	cout << endl;
+   return 0;
+}
