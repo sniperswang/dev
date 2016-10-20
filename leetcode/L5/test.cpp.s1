@@ -1,0 +1,79 @@
+
+#include <iostream>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+
+
+class Solution {
+public:
+
+	bool ifPalindrome(int i, int j, int** flag, string& str)
+	{
+		if ( i > j)
+		{
+			return true;
+		}
+
+		if(flag[i][j] == 1)
+			return true;
+		else if (flag[i][j] == -1)
+			return false;
+
+		if(str[i] != str[j])
+		{
+			flag[i][j] = -1;
+			return false;
+		}
+		else if ( ifPalindrome(i+1, j-1, flag, str) )
+		{
+			flag[i][j] = 1;
+			return true;
+		}
+
+		return false;
+	}
+
+	string longestPalindrome(string s) {
+		int len = s.size();
+		if (len == 0)
+			return s;
+		else if (len == 1)
+			return s;
+
+		int** flag = new int* [len];
+		for (int i = 0; i < len; i++)
+		{
+			flag[i] = new int[len];
+			memset(flag[i], 0, sizeof(len*sizeof(int)));
+		}
+
+		for (int i = 0; i < len; i++)
+		{
+			flag[i][i] = 1;
+		}
+		for(int k = 1; k < len; k++)
+		{
+			for(int i = 0; i < k ; i++)
+			{
+				if(ifPalindrome(i, len - k + i, &flag[0], s))
+				{
+					return s.substr(i, len-k+1);
+				}
+			}
+		}
+		
+		return s.substr(0,1);
+	}
+};
+  
+int main() 
+{
+	string str="bb";
+	Solution s;
+	cout << s.longestPalindrome(str) << endl;
+
+    return 0;
+}
