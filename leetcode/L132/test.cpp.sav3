@@ -1,0 +1,63 @@
+
+#include <iostream>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+class Solution {
+	public:
+	int minCut(string s) 
+	{
+		int min = INT_MAX;
+		DFS(s, 0, 0, min);
+		return min-1;
+	}
+
+	void DFS(string& s, int start, int depth, int &min)
+	{
+		cout << "start:" << start << " depth:" << depth << " min:" << min << endl; 
+		if (start == s.size())
+		{
+			if (depth < min)
+			{
+				min = depth;
+			}
+			return;;
+		}
+
+		for(int i = s.size() - 1; i >=start; i--)
+		{
+			if (isPalindrome(s,start, i))
+			{
+				DFS(s,i+1,depth+1,min);
+				return;
+			}
+		}
+		
+	}
+
+	bool isPalindrome(string&s, int start, int end)
+	{
+		while(start < end)
+		{
+			if (s[start] != s[end])
+			{
+				return false;
+			}
+			start ++;
+			end --;
+		}
+		return true;
+	}
+
+};
+
+int main() 
+{
+	//string str = "aabba";
+	string str = "abbacc";
+	Solution s;
+	cout << s.minCut(str) << endl;
+    return 0;
+}
