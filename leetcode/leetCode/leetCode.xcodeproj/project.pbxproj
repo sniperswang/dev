@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0A3B14D176C0A7E00B23F8E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B14C176C0A7E00B23F8E /* main.cpp */; };
+		B0A3B14F176C0A7E00B23F8E /* leetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0A3B14E176C0A7E00B23F8E /* leetCode.1 */; };
+		FBF46D8517D97B14005A531C /* testStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF46D8317D97B14005A531C /* testStatic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0A3B146176C0A7E00B23F8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B0A3B14F176C0A7E00B23F8E /* leetCode.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B036E65D1792468E003D3612 /* reverseInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseInt.h; sourceTree = "<group>"; };
+		B03A4E7017AEB8B500533855 /* interview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interview.h; sourceTree = "<group>"; };
+		B03E2A5117C92F1300701291 /* aoti_sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aoti_sample.h; sourceTree = "<group>"; };
+		B03E2A5217C9349D00701291 /* palindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = palindromeNumber.h; sourceTree = "<group>"; };
+		B0412B71179C9CFC00FDAB59 /* mergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mergeSort.h; sourceTree = "<group>"; };
+		B0412B72179CA4A700FDAB59 /* reverseList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseList.h; sourceTree = "<group>"; };
+		B0412B73179CAEBE00FDAB59 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		B041965917D25829007EC41F /* searchMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchMatrix.h; sourceTree = "<group>"; };
+		B041965A17D2E137007EC41F /* threeSumCloser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeSumCloser.h; sourceTree = "<group>"; };
+		B07B1E14179B661B0010EE9E /* quickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quickSort.h; sourceTree = "<group>"; };
+		B087AB29178E489700BF50B6 /* SumTwoNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumTwoNumber.h; sourceTree = "<group>"; };
+		B087AB2B178E490100BF50B6 /* twoSortArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoSortArray.h; sourceTree = "<group>"; };
+		B087AB2C178E495000BF50B6 /* longestSubStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestSubStr.h; sourceTree = "<group>"; };
+		B087AB2D178E49A200BF50B6 /* addListNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addListNum.h; sourceTree = "<group>"; };
+		B087AB2E178E49D500BF50B6 /* reverseStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseStr.h; sourceTree = "<group>"; };
+		B087AB2F178E4AE100BF50B6 /* queueByStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queueByStack.h; sourceTree = "<group>"; };
+		B0A33E8917CC465D0041990C /* constructorEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constructorEx.h; sourceTree = "<group>"; };
+		B0A3B148176C0A7E00B23F8E /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A3B14C176C0A7E00B23F8E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0A3B14E176C0A7E00B23F8E /* leetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = leetCode.1; sourceTree = "<group>"; };
+		B0C5BE9C17CAAFA500EA801D /* vitrualExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vitrualExample.h; sourceTree = "<group>"; };
+		B0D6905417C9BECE00814626 /* threeSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threeSum.h; sourceTree = "<group>"; };
+		FB041A9218AFD24D00ED772E /* canJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = canJump.h; sourceTree = "<group>"; };
+		FB0B73F418B3E14F00B8FEE0 /* jump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jump.h; sourceTree = "<group>"; };
+		FB0B73F618B41C0600B8FEE0 /* swapPairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swapPairs.h; sourceTree = "<group>"; };
+		FB0B73F718B4295A00B8FEE0 /* searchInsert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchInsert.h; sourceTree = "<group>"; };
+		FB14E39D181A008A00716CFD /* singleNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleNumber.h; sourceTree = "<group>"; };
+		FB14E39E181A17C200716CFD /* singleNumber2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleNumber2.h; sourceTree = "<group>"; };
+		FB318A8017E3F3F10012283A /* Permutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Permutations.h; sourceTree = "<group>"; };
+		FB318A8117E402A90012283A /* anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anagrams.h; sourceTree = "<group>"; };
+		FB318A8217E407380012283A /* Permutations_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Permutations_2.h; sourceTree = "<group>"; };
+		FB3D093A17D826B3001044A5 /* wordSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordSearch.h; sourceTree = "<group>"; };
+		FB3D093B17D82D4D001044A5 /* validPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validPalindrome.h; sourceTree = "<group>"; };
+		FB46A4D618A701CE0015DB72 /* setZeroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setZeroes.h; sourceTree = "<group>"; };
+		FB54B32618E3C22B00280880 /* generateParenthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generateParenthesis.h; sourceTree = "<group>"; };
+		FB54B32718E516E600280880 /* combinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = combinationSum.h; sourceTree = "<group>"; };
+		FB54B32818E5171A00280880 /* combinationSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = combinationSum2.h; sourceTree = "<group>"; };
+		FB5556751829FB6F0070E2D3 /* rotateRight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rotateRight.h; sourceTree = "<group>"; };
+		FB58C2A2187D012D00FFB6D4 /* insertionSortList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertionSortList.h; sourceTree = "<group>"; };
+		FB652F4118B9A21D006E5C6D /* removeElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeElement.h; sourceTree = "<group>"; };
+		FB6C03AA182F1E6D00D9DECB /* mergeTwoArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoArray.h; sourceTree = "<group>"; };
+		FB6C03AB182F451100D9DECB /* combines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = combines.h; sourceTree = "<group>"; };
+		FB7317A518B9A94500451507 /* removeDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeDuplicates.h; sourceTree = "<group>"; };
+		FB7317A618B9AD6000451507 /* removeDuplicates2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeDuplicates2.h; sourceTree = "<group>"; };
+		FB7411E418138B9500C7251A /* getPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getPermutation.h; sourceTree = "<group>"; };
+		FB99652617E4CDA60006E70B /* pow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pow.h; sourceTree = "<group>"; };
+		FB99652717E4E7580006E70B /* maxProfit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxProfit.h; sourceTree = "<group>"; };
+		FB9D05E717F118E10006E9B4 /* maxSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxSubArray.h; sourceTree = "<group>"; };
+		FB9D05E817F1255C0006E9B4 /* hasPathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hasPathSum.h; sourceTree = "<group>"; };
+		FB9D05E917F12D940006E9B4 /* pathSum2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathSum2.h; sourceTree = "<group>"; };
+		FB9DF4D618D3F18C002DBE29 /* reverseWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseWords.h; sourceTree = "<group>"; };
+		FB9DF4D718D3FAB7002DBE29 /* plusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plusOne.h; sourceTree = "<group>"; };
+		FB9F254617F79DB000CEDF3A /* nextPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nextPermutation.h; sourceTree = "<group>"; };
+		FB9F254717F7DB6000CEDF3A /* spiralOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spiralOrder.h; sourceTree = "<group>"; };
+		FBA3ADD017F3C1B700704C61 /* inorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inorderTraversal.h; sourceTree = "<group>"; };
+		FBA3ADD117F3CCC800704C61 /* removeNthFromEnd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeNthFromEnd.h; sourceTree = "<group>"; };
+		FBA3ADD217F3CF9E00704C61 /* deleteDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deleteDuplicates.h; sourceTree = "<group>"; };
+		FBA4378317EAA18F002FA9D5 /* firstMissingPositive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstMissingPositive.h; sourceTree = "<group>"; };
+		FBA49DA417F8BF1F00C7E6D3 /* lengthOfLastWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lengthOfLastWord.h; sourceTree = "<group>"; };
+		FBA49DA517F8CAC400C7E6D3 /* levelOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = levelOrder.h; sourceTree = "<group>"; };
+		FBA6DE2517E6147100A0E65F /* maxProfit2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxProfit2.h; sourceTree = "<group>"; };
+		FBA6DE2617E6794000A0E65F /* maxProfit3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxProfit3.h; sourceTree = "<group>"; };
+		FBA6DE2717E695C800A0E65F /* subsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subsets.h; sourceTree = "<group>"; };
+		FBA6DE2817E6986B00A0E65F /* subsets2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subsets2.h; sourceTree = "<group>"; };
+		FBA74B3317EE047000AE7B79 /* maxTreeDepth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxTreeDepth.h; sourceTree = "<group>"; };
+		FBA74B3417EE5D3100AE7B79 /* minDepth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minDepth.h; sourceTree = "<group>"; };
+		FBA74B3517EE7B1600AE7B79 /* maxPathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxPathSum.h; sourceTree = "<group>"; };
+		FBA74B3617EE88F500AE7B79 /* sumPathNum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sumPathNum.h; sourceTree = "<group>"; };
+		FBA74B3717EEA1B000AE7B79 /* isSameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isSameTree.h; sourceTree = "<group>"; };
+		FBAB86D0186BB49D0063746D /* mergeTwoLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoLists.h; sourceTree = "<group>"; };
+		FBAC6B021847CBCE00BD2CFE /* preorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = preorderTraversal.h; sourceTree = "<group>"; };
+		FBAC6B031847F35100BD2CFE /* postorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postorderTraversal.h; sourceTree = "<group>"; };
+		FBB741A918B564710066729F /* insert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
+		FBB741AA18B586C80066729F /* climbStairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = climbStairs.h; sourceTree = "<group>"; };
+		FBB87F8E188B0EE000A3B76D /* sortColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sortColors.h; sourceTree = "<group>"; };
+		FBB87F8F188B232700A3B76D /* reorderList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reorderList.h; sourceTree = "<group>"; };
+		FBB87F90188B386100A3B76D /* copyRandomList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = copyRandomList.h; sourceTree = "<group>"; };
+		FBB87F91188B719100A3B76D /* flatten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flatten.h; sourceTree = "<group>"; };
+		FBB9A84018B46CF9002F1B58 /* addTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addTwoNumbers.h; sourceTree = "<group>"; };
+		FBC3CCC218FB37A500024232 /* sortedArrayToBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sortedArrayToBST.h; sourceTree = "<group>"; };
+		FBC948B218F0E9F600C4EF31 /* isValidBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isValidBST.h; sourceTree = "<group>"; };
+		FBCB4AEB18D15EC3001FA04D /* maxArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maxArea.h; sourceTree = "<group>"; };
+		FBCCC7B518F63B7A00116928 /* countAndSay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = countAndSay.h; sourceTree = "<group>"; };
+		FBCFDF1B192582D90021209D /* sortedListToBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sortedListToBST.h; sourceTree = "<group>"; };
+		FBCFDF1C1925A6450021209D /* grayCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grayCode.h; sourceTree = "<group>"; };
+		FBD3439119B52E28001E9227 /* letterCombinations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = letterCombinations.h; sourceTree = "<group>"; };
+		FBD6B94918C7B1AF00E710A5 /* intToRoman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = intToRoman.h; sourceTree = "<group>"; };
+		FBDCC95918E788FB00EC865B /* reverseBetween.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseBetween.h; sourceTree = "<group>"; };
+		FBDF7F9418347AD100CD7B25 /* hasCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hasCycle.h; sourceTree = "<group>"; };
+		FBF46D8217D97977005A531C /* staticExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = staticExample.h; sourceTree = "<group>"; };
+		FBF46D8317D97B14005A531C /* testStatic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testStatic.cpp; sourceTree = "<group>"; };
+		FBF46D8417D97B14005A531C /* testStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testStatic.h; sourceTree = "<group>"; };
+		FBF7E9B018C3F13600A56AFC /* romanToInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = romanToInt.h; sourceTree = "<group>"; };
+		FBFE6ACD18E8D7080060B62B /* partition2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = partition2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A3B145176C0A7E00B23F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0A3B13D176C0A7E00B23F8E = {
+			isa = PBXGroup;
+			children = (
+				B0A3B14B176C0A7E00B23F8E /* leetCode */,
+				B0A3B149176C0A7E00B23F8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A3B149176C0A7E00B23F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3B148176C0A7E00B23F8E /* leetCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A3B14B176C0A7E00B23F8E /* leetCode */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3B14E176C0A7E00B23F8E /* leetCode.1 */,
+				FBA49DA517F8CAC400C7E6D3 /* levelOrder.h */,
+				B087AB29178E489700BF50B6 /* SumTwoNumber.h */,
+				B087AB2B178E490100BF50B6 /* twoSortArray.h */,
+				B087AB2C178E495000BF50B6 /* longestSubStr.h */,
+				B087AB2D178E49A200BF50B6 /* addListNum.h */,
+				B087AB2E178E49D500BF50B6 /* reverseStr.h */,
+				B087AB2F178E4AE100BF50B6 /* queueByStack.h */,
+				B036E65D1792468E003D3612 /* reverseInt.h */,
+				B07B1E14179B661B0010EE9E /* quickSort.h */,
+				B0412B71179C9CFC00FDAB59 /* mergeSort.h */,
+				B0412B72179CA4A700FDAB59 /* reverseList.h */,
+				B0412B73179CAEBE00FDAB59 /* sample.h */,
+				B03A4E7017AEB8B500533855 /* interview.h */,
+				B03E2A5117C92F1300701291 /* aoti_sample.h */,
+				B03E2A5217C9349D00701291 /* palindromeNumber.h */,
+				B0C5BE9C17CAAFA500EA801D /* vitrualExample.h */,
+				B0A33E8917CC465D0041990C /* constructorEx.h */,
+				B041965917D25829007EC41F /* searchMatrix.h */,
+				B041965A17D2E137007EC41F /* threeSumCloser.h */,
+				B0D6905417C9BECE00814626 /* threeSum.h */,
+				FB3D093A17D826B3001044A5 /* wordSearch.h */,
+				FB3D093B17D82D4D001044A5 /* validPalindrome.h */,
+				FBF46D8217D97977005A531C /* staticExample.h */,
+				FBF46D8317D97B14005A531C /* testStatic.cpp */,
+				FBF46D8417D97B14005A531C /* testStatic.h */,
+				FB318A8017E3F3F10012283A /* Permutations.h */,
+				FB318A8217E407380012283A /* Permutations_2.h */,
+				FB318A8117E402A90012283A /* anagrams.h */,
+				FB99652617E4CDA60006E70B /* pow.h */,
+				FB99652717E4E7580006E70B /* maxProfit.h */,
+				FBA6DE2517E6147100A0E65F /* maxProfit2.h */,
+				FBA6DE2617E6794000A0E65F /* maxProfit3.h */,
+				FBA6DE2717E695C800A0E65F /* subsets.h */,
+				FBA6DE2817E6986B00A0E65F /* subsets2.h */,
+				FBA4378317EAA18F002FA9D5 /* firstMissingPositive.h */,
+				FBA74B3317EE047000AE7B79 /* maxTreeDepth.h */,
+				FBA74B3417EE5D3100AE7B79 /* minDepth.h */,
+				FBA74B3517EE7B1600AE7B79 /* maxPathSum.h */,
+				FBA74B3617EE88F500AE7B79 /* sumPathNum.h */,
+				FBA74B3717EEA1B000AE7B79 /* isSameTree.h */,
+				FB9D05E717F118E10006E9B4 /* maxSubArray.h */,
+				FB9D05E817F1255C0006E9B4 /* hasPathSum.h */,
+				FB9D05E917F12D940006E9B4 /* pathSum2.h */,
+				FBA3ADD017F3C1B700704C61 /* inorderTraversal.h */,
+				FBA3ADD117F3CCC800704C61 /* removeNthFromEnd.h */,
+				FBA3ADD217F3CF9E00704C61 /* deleteDuplicates.h */,
+				FB9F254617F79DB000CEDF3A /* nextPermutation.h */,
+				FB9F254717F7DB6000CEDF3A /* spiralOrder.h */,
+				FBA49DA417F8BF1F00C7E6D3 /* lengthOfLastWord.h */,
+				FB7411E418138B9500C7251A /* getPermutation.h */,
+				FB14E39D181A008A00716CFD /* singleNumber.h */,
+				FB14E39E181A17C200716CFD /* singleNumber2.h */,
+				FB5556751829FB6F0070E2D3 /* rotateRight.h */,
+				FB6C03AA182F1E6D00D9DECB /* mergeTwoArray.h */,
+				FB6C03AB182F451100D9DECB /* combines.h */,
+				FBDF7F9418347AD100CD7B25 /* hasCycle.h */,
+				FBAC6B021847CBCE00BD2CFE /* preorderTraversal.h */,
+				FBAC6B031847F35100BD2CFE /* postorderTraversal.h */,
+				FBAB86D0186BB49D0063746D /* mergeTwoLists.h */,
+				FB58C2A2187D012D00FFB6D4 /* insertionSortList.h */,
+				FBB87F8E188B0EE000A3B76D /* sortColors.h */,
+				FBB87F8F188B232700A3B76D /* reorderList.h */,
+				FBB87F90188B386100A3B76D /* copyRandomList.h */,
+				FBB87F91188B719100A3B76D /* flatten.h */,
+				FB46A4D618A701CE0015DB72 /* setZeroes.h */,
+				FB041A9218AFD24D00ED772E /* canJump.h */,
+				FB0B73F418B3E14F00B8FEE0 /* jump.h */,
+				FB0B73F618B41C0600B8FEE0 /* swapPairs.h */,
+				FB0B73F718B4295A00B8FEE0 /* searchInsert.h */,
+				FBB9A84018B46CF9002F1B58 /* addTwoNumbers.h */,
+				FBB741A918B564710066729F /* insert.h */,
+				FBB741AA18B586C80066729F /* climbStairs.h */,
+				FB652F4118B9A21D006E5C6D /* removeElement.h */,
+				FB7317A518B9A94500451507 /* removeDuplicates.h */,
+				FB7317A618B9AD6000451507 /* removeDuplicates2.h */,
+				FBF7E9B018C3F13600A56AFC /* romanToInt.h */,
+				FBD6B94918C7B1AF00E710A5 /* intToRoman.h */,
+				FBCB4AEB18D15EC3001FA04D /* maxArea.h */,
+				FB9DF4D618D3F18C002DBE29 /* reverseWords.h */,
+				FB9DF4D718D3FAB7002DBE29 /* plusOne.h */,
+				FB54B32618E3C22B00280880 /* generateParenthesis.h */,
+				FB54B32718E516E600280880 /* combinationSum.h */,
+				FB54B32818E5171A00280880 /* combinationSum2.h */,
+				FBDCC95918E788FB00EC865B /* reverseBetween.h */,
+				FBFE6ACD18E8D7080060B62B /* partition2.h */,
+				FBC948B218F0E9F600C4EF31 /* isValidBST.h */,
+				FBCCC7B518F63B7A00116928 /* countAndSay.h */,
+				FBC3CCC218FB37A500024232 /* sortedArrayToBST.h */,
+				FBCFDF1B192582D90021209D /* sortedListToBST.h */,
+				FBCFDF1C1925A6450021209D /* grayCode.h */,
+				FBD3439119B52E28001E9227 /* letterCombinations.h */,
+				B0A3B14C176C0A7E00B23F8E /* main.cpp */,
+			);
+			path = leetCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A3B147176C0A7E00B23F8E /* leetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A3B152176C0A7E00B23F8E /* Build configuration list for PBXNativeTarget "leetCode" */;
+			buildPhases = (
+				B0A3B144176C0A7E00B23F8E /* Sources */,
+				B0A3B145176C0A7E00B23F8E /* Frameworks */,
+				B0A3B146176C0A7E00B23F8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetCode;
+			productName = leetCode;
+			productReference = B0A3B148176C0A7E00B23F8E /* leetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A3B13F176C0A7E00B23F8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = B0A3B142176C0A7E00B23F8E /* Build configuration list for PBXProject "leetCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0A3B13D176C0A7E00B23F8E;
+			productRefGroup = B0A3B149176C0A7E00B23F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A3B147176C0A7E00B23F8E /* leetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A3B144176C0A7E00B23F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A3B14D176C0A7E00B23F8E /* main.cpp in Sources */,
+				FBF46D8517D97B14005A531C /* testStatic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0A3B150176C0A7E00B23F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0A3B151176C0A7E00B23F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0A3B153176C0A7E00B23F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0A3B154176C0A7E00B23F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A3B142176C0A7E00B23F8E /* Build configuration list for PBXProject "leetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A3B150176C0A7E00B23F8E /* Debug */,
+				B0A3B151176C0A7E00B23F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A3B152176C0A7E00B23F8E /* Build configuration list for PBXNativeTarget "leetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A3B153176C0A7E00B23F8E /* Debug */,
+				B0A3B154176C0A7E00B23F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A3B13F176C0A7E00B23F8E /* Project object */;
+}
