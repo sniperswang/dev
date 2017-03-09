@@ -1,0 +1,20 @@
+/* 
+Amazon employees are encouraged to learn and be curious, and this means employees can transfer teams within the company easily. 
+This usually means they'll move to a new building, and for those who have parking, they'd need to swap parking spots. 
+The task is that given a list of employees who want to swap parking spots, write a function that can match them up 1 to 1. 
+The output can simply be tuples of aliases. 
+Each alias should only be matched once. 
+
+
+Input- 
+alias fromBuilding toBuilding 
+adrian building1 building2 
+john building2 building1 
+andrew building3 building2 
+william building4 building3 
+John building2 building4 
+Doe 
+
+output- 
+adrian,john 
+*/
