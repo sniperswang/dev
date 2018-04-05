@@ -21,7 +21,7 @@ class Solution(object):
     :rtype: bool
     """
     intervals.sort(key = lambda x: x.start)
-    if (len(intervals) == 1 ):
+    if (len(intervals) <= 1 ):
       return True
 
     upper = intervals[0].end
